@@ -1,0 +1,1 @@
+RAW {"status": "success", "result": {"success": true, "mode": "file", "scope": "public", "output": "BASE euler -52.62 2.55 -5.31\n\nset_bone_rotation err 'ControlRigComponent' object has no attribute 'set_bone_rotation'\n\nAFTER set_bone_rotation(0,90,0) euler -52.62 2.55 -5.31\n\n"}}

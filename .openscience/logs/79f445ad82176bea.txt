@@ -1,0 +1,8 @@
+[Adaptive Build] Excluded from UnrealMCP unity file: UnrealMCPBridge.cpp, UnrealMCPRigCommands.cpp
+Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
+  Executing up to 8 processes, one per physical core
+------ Building 2 action(s) started ------
+[1/2] Compile UnrealMCPRigCommands.cpp
+[2/2] Link (lld) libUnrealEditor-UnrealMCP.so
+Total time in Parallel executor: 18.38 seconds
+Total execution time: 21.75 seconds

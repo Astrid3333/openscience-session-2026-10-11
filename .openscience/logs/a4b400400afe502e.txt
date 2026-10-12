@@ -1,0 +1,10 @@
+DISPLAY=:0 WAYLAND= XDG_SESSION=x11
+astrid   tty7         2026-10-11 22:34 (:0)
+---
+crw-rw----+ 1 root video 81, 0 Oct 12 00:52 /dev/video0
+crw-rw----+ 1 root video 81, 1 Oct 12 00:52 /dev/video1
+---
+[ WARN:0@1.732] global cap_v4l.cpp:914 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@1.732] global cap.cpp:475 open VIDEOIO(V4L2): backend is generally available but can't be used to capture by index
+dev0: opened ok=True shape=(480, 640, 3)
+dev1: NOT opened

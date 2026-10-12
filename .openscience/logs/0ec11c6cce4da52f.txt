@@ -1,0 +1,1 @@
+RESP {"status": "success", "result": {"success": true, "mode": "file", "scope": "public", "output": "UE_OK\n\nFEI BP_Fei_C_UAID_408D5C334E90430A03_2037143183\n\n"}}

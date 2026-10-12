@@ -1,0 +1,6 @@
+set [0, 0, 0] read [0, 0, 0] quat_dot=1.0000
+set [30, 45, -20] read [30.0, 45.0, -20.0] quat_dot=1.0000
+set [10, 90, 0] read [10.0, 90, -0.0] quat_dot=1.0000
+aim euler for -Y: [-0.0, 0.0, -90.0]
+readback localX (should be -Y): [ 0. -1. -0.] dot=1.0000
+reset done

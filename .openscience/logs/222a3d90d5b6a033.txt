@@ -1,0 +1,40 @@
+8:			"Name": "MCPGameProject",
+9-			"Type": "Runtime",
+10-			"LoadingPhase": "Default"
+--
+15:			"Name": "ModelingToolsEditorMode",
+16-			"Enabled": true,
+17-			"TargetAllowList": [
+--
+22:			"Name": "OSC",
+23-			"Enabled": true
+24-		},
+--
+26:			"Name": "PythonScriptPlugin",
+27-			"Enabled": true
+28-		},
+--
+30:			"Name": "EditorScriptingUtilities",
+31-			"Enabled": true
+32-		},
+--
+34:			"Name": "RigLogic",
+35-			"Enabled": true
+36-		},
+--
+38:			"Name": "LiveLink",
+39-			"Enabled": true
+40-		},
+--
+42:			"Name": "LiveLinkControlRig",
+43-			"Enabled": true
+44-		},
+--
+46:			"Name": "AppleARKitFaceSupport",
+47-			"Enabled": true,
+48-			"SupportedTargetPlatforms": [
+--
+57:			"Name": "HairStrands",
+58-			"Enabled": true
+59-		}
+['ModelingToolsEditorMode', 'OSC', 'PythonScriptPlugin', 'EditorScriptingUtilities', 'RigLogic', 'LiveLink', 'LiveLinkControlRig', 'AppleARKitFaceSupport', 'HairStrands']

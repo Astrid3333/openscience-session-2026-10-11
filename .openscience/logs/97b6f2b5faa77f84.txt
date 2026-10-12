@@ -1,0 +1,5 @@
+PY_OK
+[1/4] Compile UnrealMCPBridge.cpp
+[2/4] Compile UnrealMCPRigCommands.cpp
+[3/4] Compile Module.UnrealMCP.cpp
+Total execution time: 51.91 seconds

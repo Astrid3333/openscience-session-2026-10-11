@@ -1,0 +1,7 @@
+{'success': True, 'actor_name': 'BP_Fei_C_UAID_408D5C334E90430A03_2037143183', 'num_reset': 151}
+[0] head_ctrl: (0.00,0.00,0.00)
+[0] neck_01_ctrl: (0.00,0.00,0.00)
+[1] head_ctrl: (0.00,0.00,0.00)
+[1] neck_01_ctrl: (0.00,0.00,0.00)
+[2] head_ctrl: (0.00,0.00,0.00)
+[2] neck_01_ctrl: (0.00,0.00,0.00)

@@ -1,0 +1,3 @@
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+AttributeError: module 'fei_mocap' has no attribute '_euler_to_quat_ue'

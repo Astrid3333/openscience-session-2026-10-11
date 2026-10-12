@@ -1,0 +1,8 @@
+=== Bone test stock MetaHuman: 20 controles, 2.0s @ 10.0 Hz ===
+FEI: BP_Fei_C_UAID_408D5C334E90430A03_2037143183
+captura media tomada
+DONE frames=20 ok=20 fail=0 (reset_rig_controls: 151 controles)
+thigh_l_fk_ctrl: got=(87.07,156.17,164.47) rest=(87.07,156.17,164.62) MATCH
+upperarm_l_fk_ctrl: got=(-52.62,2.55,-5.31) rest=(-52.62,2.55,-5.31) MATCH
+head_ctrl: got=(-3.33,0.00,0.00) rest=(0,0,0) DIFF
+NOT_AT_REST

@@ -1,0 +1,2 @@
+ACTOR {"status": "error", "error": "Unknown command: get_actor_transform"}
+PELVIS {'location': [-41.07884996280629, 197.90770422708252, 187.0707550048828], 'rotation': [87.94709357473894, -87.17095947265679, 90], 'scale': [1, 1, 1]}

@@ -1,0 +1,4 @@
+=== Bone test stock MetaHuman: 20 controles, 4.0s @ 10.0 Hz ===
+FEI: BP_Fei_C_UAID_408D5C334E90430A03_2037143183
+captura media tomada
+DONE frames=40 ok=40 fail=0 (pose reset a cero)

@@ -1,0 +1,4 @@
+EXIT=1
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+TypeError: FaceLandmarkerOptions.__init__() got an unexpected keyword argument 'output_face_transformation_matrices'

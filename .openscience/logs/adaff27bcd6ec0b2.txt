@@ -1,0 +1,5 @@
+BASE {'location': [-55.31334308730543, 201.48886658847573, 225.7057807165129], 'rotation': [-52.620489055008434, -174.62517579637375, -5.3149700765867465], 'scale': [1, 1, 1]}
+SET {"status": "success", "result": {"success": true, "actor_name": "BP_Fei_C_UAID_408D5C334E90430A03_2037143183", "bone_name": "upperarm_l", "space": "world", "weight": 1, "propagate_to_children": false}}
+AFTER pure yaw [0,90,0] {'location': [-55.313343087305434, 201.48886658847573, 225.7057807165129], 'rotation': [0, 89.99999999999999, 0], 'scale': [1, 1, 1]}
+RESTORE SET True
+RESTORED {'location': [-55.31334308730544, 201.48886658847573, 225.7057807165129], 'rotation': [-52.61999893188478, -174.6300048828125, -5.309999942779543], 'scale': [1, 1, 1]}

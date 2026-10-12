@@ -1,0 +1,1 @@
+RAW {"status": "success", "result": {"success": true, "mode": "file", "scope": "public", "output": "SKM HITS: ['skeleton']\n\nSKEL HITS: ['add_compatible_skeleton', 'add_compatible_skeleton_soft', 'compatible_skeletons', 'get_reference_pose']\n\n"}}

@@ -1,0 +1,6 @@
+upperarm_l_fk_ctrl: rot=(0.00,-0.00,-70.00) max|r|=70.00 NOT ZERO
+upperarm_r_fk_ctrl: rot=(0.00,-0.00,70.00) max|r|=70.00 NOT ZERO
+thigh_l_fk_ctrl: rot=(87.07,156.17,164.62) max|r|=164.62 NOT ZERO
+spine_03_ctrl: rot=(0.00,0.00,0.00) max|r|=0.00 ZERO
+head_ctrl: rot=(-5.00,20.00,0.00) max|r|=20.00 NOT ZERO
+NEEDS_RESET

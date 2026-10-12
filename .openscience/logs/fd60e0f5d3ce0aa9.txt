@@ -1,0 +1,7 @@
+FEI: BP_Fei_C_UAID_408D5C334E90430A03_2037143183
+drive_fei_actor: {'success': True}
+drive_fei_body: {'success': True}
+drive_fei_face: {'success': True}
+reset: success 747
+rig reset: success 10
+DRIVE_PATHS_OK

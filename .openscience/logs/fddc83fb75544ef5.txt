@@ -1,0 +1,1 @@
+{'success': True, 'mode': 'file', 'scope': 'private', 'output': 'LOC 37.8 200.0 100.0 ROT 0.0 -179.0 0.0\n\n'}

@@ -1,0 +1,7 @@
+13:	"EnabledByDefault" : true,
+20:			"Enabled": true
+24:			"Enabled": true,
+31:			"Enabled": true
+35:			"Enabled": true
+39:			"Enabled": true
+[{'Name': 'ControlRig', 'Type': 'Runtime', 'LoadingPhase': 'PreDefault'}, {'Name': 'ControlRigDeveloper', 'Type': 'UncookedOnly', 'LoadingPhase': 'PreDefault'}, {'Name': 'ControlRigEditor', 'Type': 'Editor', 'LoadingPhase': 'PostEngineInit'}] True None

@@ -1,0 +1,5 @@
+upperarm_l_fk_ctrl -> 
+upperarm_r_fk_ctrl -> 
+thigh_l_fk_ctrl -> 
+spine_03_ctrl -> 
+head_ctrl -> 

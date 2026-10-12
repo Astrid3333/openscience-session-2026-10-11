@@ -1,0 +1,7 @@
+1) find_fei -> BP_Fei_C_UAID_408D5C334E90430A03_2037143183
+2) set_actor_transform -> success location: [10, 200, 100]
+3) set_morph_targets -> success applied: 3 / 3 errors: []
+4) set_rig_pose -> success controls_applied: 3 errors: []
+5) reset_morph_targets -> success reset_count: 747
+6) pose reset -> success applied: 3
+ALL_OK

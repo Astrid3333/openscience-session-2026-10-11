@@ -1,0 +1,2 @@
+PY_OK
+DISPLAY=:0

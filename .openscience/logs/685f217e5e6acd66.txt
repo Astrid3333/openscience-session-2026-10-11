@@ -1,0 +1,2 @@
+SUMMARY frames_pose=264 frames_face=155 sample_saved=True
+EXIT=0

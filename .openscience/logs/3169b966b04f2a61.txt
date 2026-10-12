@@ -1,0 +1,1 @@
+{"status": "success", "result": {"success": true, "mode": "file", "scope": "private", "output": "HELLO123\n\n"}}

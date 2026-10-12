@@ -1,0 +1,11 @@
+list_skeletal_components: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}
+list_morph_targets: success=success | {"status": "success", "result": {"success": true, "mesh_path": "/Game/MetaHumans/Fei/Face/Fei_FaceMesh.Fei_FaceMesh", "count": 2, "morph_targets": ["head_lod0_mesh__brow_down_L", "head_lod0_mesh__brow_down_R"]}}
+set_morph_targets: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}
+get_anim_state: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}
+reset_morph_targets: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}
+list_grooms: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}
+list_lod_sync: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}
+set_lod_sync: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}
+set_anim_instance: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}
+play_animation: success=error | {"status": "error", "error": "Animation asset not found: /Game/MetaHumans/Common/Female/Medium/NormalWeight/Animations/Unarmed/UE5_Manny"}
+stop_animation: success=error | {"status": "error", "error": "Actor not found: BP_Fei_Mocap"}

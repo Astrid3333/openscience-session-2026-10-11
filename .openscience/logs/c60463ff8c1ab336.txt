@@ -1,0 +1,11 @@
+nbones: 10
+upperarm_l   euler=[-0.0, 0.0, -0.0] localX=[1. 0. 0.]
+upperarm_r   euler=[-0.0, 0.0, 180.0] localX=[-1.  0.  0.]
+lowerarm_l   euler=[-0.0, 0.0, -0.0] localX=[1. 0. 0.]
+lowerarm_r   euler=[-0.0, 0.0, 180.0] localX=[-1.  0.  0.]
+thigh_l      euler=[-0.0, 87.5, -0.0] localX=[ 0.04  0.   -1.  ]
+thigh_r      euler=[-0.0, -87.5, -180.0] localX=[-0.04 -0.   -1.  ]
+calf_l       euler=[0.0, 90.0, 0.0] localX=[ 0.  0. -1.]
+calf_r       euler=[0.0, 90.0, 0.0] localX=[ 0.  0. -1.]
+spine_03     euler=[-0.0, -90.0, -0.0] localX=[0. 0. 1.]
+head         euler=[-0.0, -90.0, -0.0] localX=[0. 0. 1.]

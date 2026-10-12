@@ -1,0 +1,6 @@
+reset: {"success": true, "actor_name": "BP_Fei_C_UAID_408D5C334E90430A03_2037143183", "num_reset": 151}
+thigh_l_fk_ctrl: (87.07,156.17,164.62)
+calf_l_fk_ctrl: (86.65,138.88,147.35)
+upperarm_l_fk_ctrl: (-52.62,2.55,-5.31)
+head_ctrl: (0.00,0.00,0.00)
+hand_l_fk_ctrl: (-45.52,54.69,-24.96)

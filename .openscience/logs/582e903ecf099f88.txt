@@ -1,0 +1,12 @@
+space: world nbones: 10
+upperarm_l [-0.0, 0.0, 90.0]
+upperarm_r [-0.0, 0.0, -90.0]
+lowerarm_l [-0.0, 0.0, 90.0]
+lowerarm_r [-0.0, 0.0, -90.0]
+thigh_l [-87.5, -0.0, 90.0]
+thigh_r [87.5, -0.0, -90.0]
+calf_l [0.0, 90.0, 0.0]
+calf_r [0.0, 90.0, 0.0]
+spine_03 [-0.0, -90.0, -0.0]
+head [-0.0, -90.0, -0.0]
+upperarm_l localX: [0. 1. 0.]

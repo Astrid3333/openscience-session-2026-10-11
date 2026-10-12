@@ -1,0 +1,7 @@
+{"success": true, "actor_name": "BP_Fei_C_UAID_408D5C334E90430A03_2037143183", "controls_applied": 10, "bones_applied": 0, "controls_requested": 10, "errors": []}
+upperarm_l_fk_ctrl: (0.00,-0.00,-0.00) ZERO
+upperarm_r_fk_ctrl: (0.00,-0.00,0.00) ZERO
+thigh_l_fk_ctrl: (-0.00,0.00,-0.00) ZERO
+spine_03_ctrl: (0.00,0.00,0.00) ZERO
+head_ctrl: (0.00,0.00,0.00) ZERO
+ALL_ZERO

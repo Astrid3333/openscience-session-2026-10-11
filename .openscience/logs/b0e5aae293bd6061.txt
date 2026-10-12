@@ -1,0 +1,5 @@
+thigh_l_fk_ctrl: (87.07,156.17,164.62) NOT ZERO
+thigh_r_fk_ctrl: (-87.07,-156.17,164.62) NOT ZERO
+head_ctrl: (-5.89,0.00,0.00) NOT ZERO
+calf_r_fk_ctrl: (-86.65,-138.88,147.35) NOT ZERO
+NEEDS_RESET

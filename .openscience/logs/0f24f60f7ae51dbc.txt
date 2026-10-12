@@ -1,0 +1,5 @@
+upperarm_l_fk_ctrl -> {"success": true, "actor_name": "BP_Fei_C_UAID_408D5C334E90430A03_2037143183", "control_name": "upperarm_l_fk_ctrl", "space": "rig", "transf
+upperarm_r_fk_ctrl -> {"success": true, "actor_name": "BP_Fei_C_UAID_408D5C334E90430A03_2037143183", "control_name": "upperarm_r_fk_ctrl", "space": "rig", "transf
+thigh_l_fk_ctrl -> {"success": true, "actor_name": "BP_Fei_C_UAID_408D5C334E90430A03_2037143183", "control_name": "thigh_l_fk_ctrl", "space": "rig", "transform
+spine_03_ctrl -> {"success": true, "actor_name": "BP_Fei_C_UAID_408D5C334E90430A03_2037143183", "control_name": "spine_03_ctrl", "space": "rig", "transform":
+head_ctrl -> {"success": true, "actor_name": "BP_Fei_C_UAID_408D5C334E90430A03_2037143183", "control_name": "head_ctrl", "space": "rig", "transform": {"l
