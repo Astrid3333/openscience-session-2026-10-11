@@ -1,0 +1,49 @@
+La nube de puntos es muy buena para tu caso, pero sirve para cosas distintas al esqueleto.
+
+**Qué es**
+Es la profundidad convertida a 3D con los mismos intrínsecos:
+`X = (u - cx)·Z/fx`, `Y = (v - cy)·Z/fy`, `Z = depth`
+Cada píxel válido pasa a ser un punto (X, Y, Z) en metros. Es la misma información que el mapa de profundidad, solo que ya en 3D.
+
+**Para qué te sirve en mocap**
+- **Segmentar el cuerpo:** recortas por distancia (por ejemplo 0.8 a 3 m) y quitas el piso con RANSAC. Te queda solo la persona, sin depender del color ni de la luz visible.
+- **Ajustar un esqueleto o modelo al cuerpo:** en vez de confiar solo en keypoints 2D, ajustas un modelo (SMPL o tu propio rig) a la nube con ICP o minimizando distancia. Es más robusto cuando el RGB falla.
+- **Corregir keypoints:** si MediaPipe da una muñeca en un lugar, la "pegas" al punto de la nube más cercano. Eso baja el ruido de Z.
+- **Visualización en Unreal:** mandar la nube a Niagara para ver al actor como puntos o partículas en tiempo real. Es muy vistoso y barato de hacer.
+
+**Límites**
+- Con una sola cámara es 2.5D: solo ves la superficie que mira a la cámara. Lo de atrás no existe, así que no obtienes un cuerpo completo.
+- Pesa mucho. La Astra da unos 300k puntos por frame (640x480), así que hay que submuestrear (voxel de 1 a 2 cm) antes de procesar.
+- Tiene los mismos problemas de IR de antes: sol, huecos en ropa negra y superficies brillantes, y ruido que crece con la distancia.
+- Es ruidosa en los bordes (los "flying pixels" entre el cuerpo y el fondo). Se filtran con outlier removal.
+- Sin RGB alineado, la nube no tiene color. Con el RGB calibrado puedes pintarla.
+
+**Cómo combinarlo (lo que yo haría)**
+1. RGB → keypoints 2D.
+2. Profundidad → nube de puntos, recortada al cuerpo.
+3. Cada keypoint se ajusta al punto más cercano de la nube.
+4. Filtro + restricciones de huesos.
+5. Retarget a Unreal, y la nube va aparte a Niagara si quieres visualizarla.
+
+**Base mínima con Open3D**
+```python
+import numpy as np
+import open3d as o3d
+
+def depth_to_cloud(depth_mm, fx, fy, cx, cy, zmin=0.6, zmax=3.0):
+    z = depth_mm.astype(np.float32) / 1000.0
+    h, w = z.shape
+    u, v = np.meshgrid(np.arange(w), np.arange(h))
+    m = (z > zmin) & (z < zmax)
+    x = (u[m] - cx) * z[m] / fx
+    y = (v[m] - cy) * z[m] / fy
+    pts = np.stack([x, y, z[m]], axis=1)
+    pcd = o3d.geometry.PointCloud(o3d.utility.Vector3dVector(pts))
+    pcd = pcd.voxel_down_sample(0.015)
+    pcd, _ = pcd.remove_statistical_outlier(nb_neighbors=20, std_ratio=2.0)
+    return pcd
+```
+
+Como ya tienes `astra_point_cloud` en tu bridge de Unreal, puedes probar primero la visualización directa y después meter el ajuste de keypoints.
+
+Si quieres, te armo el paso 3 (keypoint → punto más cercano de la nube, con KDTree) o la parte de Niagara.
