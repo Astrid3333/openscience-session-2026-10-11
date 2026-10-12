@@ -8,3 +8,4 @@
 - Convención de espacios del rig stock: controls en `space='rig'` (NO 'component'); bones world via `set_rig_pose` con `space='world'` (batch de huesos, un solo round-trip TCP).
 - fei_mocap.py: retarget 3D — quaternion/euler UE via matrices (roundtrip exacto), _aim_quat (local +X hueso -> dir world, verificado dot=1.0 vs editor), mp_to_ue=(-x,-z,y) para usuario frente a cámara. 10 huesos: upperarm/lowerarm/thigh/calf l+r, spine_03, head.
 - Cámara: Orbbec Astra Pro (2bc5:0501) en /dev/video0, 640x480; DISPLAY=:0 X11. Face intermitente en sala oscura. Para correr: `timeout -s INT 45 .venv/bin/python -u fei_mocap.py`.
+- Astra Pro depth: activada con SDK OpenNI de Orbbec 2.3.0.86 (runtime en unreal-mcp/Python/astra_depth/). depth_cap helper C++ stream 640x480@30. fei_mocap.py usa DepthStream.sample() en cadera media → dist_m real para drive_fei_actor (eje Y UE). Prueba run3: 30fps, d=2.43-2.47m, body_ok=16-18/s, body_fail=0. Commit unreal-mcp `f948035`.
